@@ -23,7 +23,7 @@ This modified version of the Moltbot Browser Relay Chrome Extension adds support
 
 ### Step 2: Install Modified Extension
 
-1. **Extract this ZIP file** to a permanent location (e.g., `C:\Users\jeff\moltbot\chrome-extension-modified`)
+1. **Extract this ZIP file** to a permanent location (e.g., `C:\Users\YourUsername\moltbot\chrome-extension-modified`)
    - ⚠️ **Important:** Do NOT delete this folder after installation!
    - Chrome loads unpacked extensions from their source folder
 
