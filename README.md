@@ -49,7 +49,7 @@ This modified version of the Moltbot Browser Relay Chrome Extension adds support
 
 3. In the **"Gateway URL (Remote/Tailscale)"** section:
    - Enter your full gateway URL
-   - Example: `https://ip-172-31-9-18.tail16f782.ts.net/relay`
+   - Example: `https://your-gateway.tailscale.ts.net/relay`
 
 4. Click **"Save Settings"**
 
@@ -72,7 +72,7 @@ This modified version of the Moltbot Browser Relay Chrome Extension adds support
 
 **Your Tailscale Gateway URL:**
 ```
-https://ip-172-31-9-18.tail16f782.ts.net/relay
+https://your-gateway.tailscale.ts.net/relay
 ```
 
 **Steps:**
@@ -114,7 +114,7 @@ https://ip-172-31-9-18.tail16f782.ts.net/relay
 2. Verify gateway URL is correct
 3. Ensure gateway is running on EC2
 4. Check Tailscale connection: `tailscale status`
-5. Test gateway manually: Open `https://ip-172-31-9-18.tail16f782.ts.net/relay` in browser
+5. Test gateway manually: Open `https://your-gateway.tailscale.ts.net/relay` in browser
 
 ### "Relay not reachable" error
 
@@ -124,7 +124,7 @@ https://ip-172-31-9-18.tail16f782.ts.net/relay
 1. Verify Tailscale Serve is running: `tailscale serve status`
 2. Check gateway service: `systemctl --user status moltbot-gateway`
 3. Ensure `/relay` path is configured in Tailscale Serve
-4. Test with curl: `curl https://ip-172-31-9-18.tail16f782.ts.net/relay/`
+4. Test with curl: `curl https://your-gateway.tailscale.ts.net/relay/`
 
 ### Extension connects but tasks don't execute
 
